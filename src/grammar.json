@@ -963,12 +963,26 @@
           }
         },
         {
-          "type": "FIELD",
-          "name": "flag",
-          "content": {
-            "type": "SYMBOL",
-            "name": "flag"
-          }
+          "type": "CHOICE",
+          "members": [
+            {
+              "type": "FIELD",
+              "name": "flag",
+              "content": {
+                "type": "SYMBOL",
+                "name": "flag"
+              }
+            },
+            {
+              "type": "ALIAS",
+              "content": {
+                "type": "STRING",
+                "value": "txn"
+              },
+              "named": false,
+              "value": "TXN"
+            }
+          ]
         },
         {
           "type": "CHOICE",
