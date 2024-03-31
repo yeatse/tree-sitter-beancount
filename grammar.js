@@ -172,7 +172,10 @@ module.exports = grammar({
     transaction: ($) =>
       seq(
         field("date", $.date),
-        field("flag", $.flag),
+        choice(
+          field("flag", $.flag),
+          alias("txn", "TXN"),
+        ),
         optional(
           choice(
             seq(field("payee", $.string), field("narration", $.string)),

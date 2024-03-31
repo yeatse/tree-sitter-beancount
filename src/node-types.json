@@ -1421,7 +1421,7 @@
       },
       "flag": {
         "multiple": false,
-        "required": true,
+        "required": false,
         "types": [
           {
             "type": "flag",
@@ -1622,6 +1622,10 @@
   },
   {
     "type": "QUERY",
+    "named": false
+  },
+  {
+    "type": "TXN",
     "named": false
   },
   {
