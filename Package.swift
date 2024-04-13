@@ -39,7 +39,7 @@ let package = Package(
                     // NOTE: if your language has an external scanner, add it here.
                 ],
                 resources: [
-                    .copy("queries")
+                    .copy("queries/highlights.scm")
                 ],
                 publicHeadersPath: "bindings/swift",
                 cSettings: [.headerSearchPath("src")])
