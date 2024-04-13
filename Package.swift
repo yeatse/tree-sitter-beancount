@@ -13,6 +13,9 @@ let package = Package(
                 sources: [
                     "src/parser.c",
                 ],
+                resources: [
+                    .copy("queries/highlights.scm"),
+                ],
                 publicHeadersPath: "bindings/swift",
                 cSettings: [.headerSearchPath("src")])
     ]
