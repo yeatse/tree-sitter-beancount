@@ -125,6 +125,16 @@
           }
         ]
       },
+      "comment": {
+        "multiple": false,
+        "required": false,
+        "types": [
+          {
+            "type": "comment",
+            "named": true
+          }
+        ]
+      },
       "date": {
         "multiple": false,
         "required": true,
@@ -276,6 +286,16 @@
           }
         ]
       },
+      "comment": {
+        "multiple": false,
+        "required": false,
+        "types": [
+          {
+            "type": "comment",
+            "named": true
+          }
+        ]
+      },
       "date": {
         "multiple": false,
         "required": true,
@@ -299,9 +319,24 @@
     }
   },
   {
+    "type": "comment",
+    "named": true,
+    "fields": {}
+  },
+  {
     "type": "commodity",
     "named": true,
     "fields": {
+      "comment": {
+        "multiple": false,
+        "required": false,
+        "types": [
+          {
+            "type": "comment",
+            "named": true
+          }
+        ]
+      },
       "currency": {
         "multiple": false,
         "required": true,
@@ -485,6 +520,16 @@
     "type": "custom",
     "named": true,
     "fields": {
+      "comment": {
+        "multiple": false,
+        "required": false,
+        "types": [
+          {
+            "type": "comment",
+            "named": true
+          }
+        ]
+      },
       "date": {
         "multiple": false,
         "required": true,
@@ -573,6 +618,16 @@
           }
         ]
       },
+      "comment": {
+        "multiple": false,
+        "required": false,
+        "types": [
+          {
+            "type": "comment",
+            "named": true
+          }
+        ]
+      },
       "date": {
         "multiple": false,
         "required": true,
@@ -619,6 +674,16 @@
     "type": "event",
     "named": true,
     "fields": {
+      "comment": {
+        "multiple": false,
+        "required": false,
+        "types": [
+          {
+            "type": "comment",
+            "named": true
+          }
+        ]
+      },
       "date": {
         "multiple": false,
         "required": true,
@@ -814,6 +879,16 @@
           }
         ]
       },
+      "comment": {
+        "multiple": false,
+        "required": false,
+        "types": [
+          {
+            "type": "comment",
+            "named": true
+          }
+        ]
+      },
       "date": {
         "multiple": false,
         "required": true,
@@ -866,6 +941,16 @@
         "types": [
           {
             "type": "string",
+            "named": true
+          }
+        ]
+      },
+      "comment": {
+        "multiple": false,
+        "required": false,
+        "types": [
+          {
+            "type": "comment",
             "named": true
           }
         ]
@@ -938,6 +1023,16 @@
         "types": [
           {
             "type": "account",
+            "named": true
+          }
+        ]
+      },
+      "comment": {
+        "multiple": false,
+        "required": false,
+        "types": [
+          {
+            "type": "comment",
             "named": true
           }
         ]
@@ -1166,6 +1261,16 @@
           }
         ]
       },
+      "comment": {
+        "multiple": false,
+        "required": false,
+        "types": [
+          {
+            "type": "comment",
+            "named": true
+          }
+        ]
+      },
       "currency": {
         "multiple": false,
         "required": true,
@@ -1253,6 +1358,16 @@
     "type": "query",
     "named": true,
     "fields": {
+      "comment": {
+        "multiple": false,
+        "required": false,
+        "types": [
+          {
+            "type": "comment",
+            "named": true
+          }
+        ]
+      },
       "date": {
         "multiple": false,
         "required": true,
@@ -1409,6 +1524,16 @@
     "type": "transaction",
     "named": true,
     "fields": {
+      "comment": {
+        "multiple": false,
+        "required": false,
+        "types": [
+          {
+            "type": "comment",
+            "named": true
+          }
+        ]
+      },
       "date": {
         "multiple": false,
         "required": true,
