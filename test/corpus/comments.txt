@@ -4,7 +4,7 @@ Balance with some comment lines
 
 ; this is a comment
 * this also
-2012-12-12 balance Assets:Test 50.00 EUR
+2012-12-12 balance Assets:Test 50.00 EUR ;comment
 
 ; one more comment
 
@@ -18,7 +18,8 @@ Balance with some comment lines
     account: (account)
     amount: (amount
       number: (number)
-      currency: (currency))))
+      currency: (currency))
+    comment: (comment)))
 
 ================================================================================
 Transaction with some comment lines

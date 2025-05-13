@@ -8,6 +8,7 @@
 ((currency) @string)
 ((flag) @string.special.symbol)
 ((account) @variable)
+((comment) @comment)
 
 [
   (number)
