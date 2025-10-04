@@ -258,7 +258,7 @@ module.exports = grammar({
           "price_annotation",
           optional(choice($.price_annotation, $.total_price_annotation)),
         ),
-        optional(COMMENT),
+        field("comment", optional($.comment)),
         field("metadata", optional($.metadata)),
       ),
     postings: ($) => repeat1(choice($.posting, seq(INDENT, COMMENT))),
