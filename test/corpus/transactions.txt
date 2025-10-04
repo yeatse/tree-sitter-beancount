@@ -56,7 +56,8 @@ Simple transactions
           number: (number)
           currency: (currency)))
       (posting
-        account: (account)))))
+        account: (account)
+        comment: (comment)))))
 
 ================================================================================
 Transaction with cost spec

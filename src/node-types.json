@@ -1079,6 +1079,16 @@
           }
         ]
       },
+      "comment": {
+        "multiple": false,
+        "required": false,
+        "types": [
+          {
+            "type": "comment",
+            "named": true
+          }
+        ]
+      },
       "cost_spec": {
         "multiple": false,
         "required": false,

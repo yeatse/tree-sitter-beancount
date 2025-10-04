@@ -54,7 +54,8 @@ Transaction with some comment lines
         account: (account)
         amount: (amount
           number: (number)
-          currency: (currency)))
+          currency: (currency))
+        comment: (comment))
       (posting
         account: (account)
         amount: (amount
