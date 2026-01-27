@@ -342,15 +342,16 @@ export default grammar({
     account: () =>
       token(
         seq(
-          // Account name should start with an uppercase letter:
-          /[\p{Lu}]/u,
+          // First segment starts with: Uppercase letter OR "other letter" (e.g. 中文)
+          /[\p{Lu}\p{Lo}]/u,
           // and then any letter or number or dash (`-`):
           repeat(/[\p{L}\p{Nd}-]/u),
+
           repeat1(
             seq(
               ":",
-              // further segments start with uppercase or number
-              /[\p{Lu}\p{Nd}]/u,
+              // further segments start with: Uppercase OR number OR "other letter" (e.g. 中文)
+              /[\p{Lu}\p{Lo}\p{Nd}]/u,
               // and then any letter or number or dash (`-`):
               repeat(/[\p{L}\p{Nd}-]/u),
             ),
