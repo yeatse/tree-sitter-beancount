@@ -48,3 +48,5 @@
 [
   "{" "}" "{{" "}}"
 ] @punctuation.bracket
+
+((ERROR) @error)
